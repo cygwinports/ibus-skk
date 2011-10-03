@@ -1,0 +1,7 @@
+inherit gnome2
+
+DESCRIPTION="IBus Japanese SKK input engine"
+HOMEPAGE="https://github.com/ueno/ibus-skk"
+SRC_URI="https://github.com/downloads/ueno/ibus-skk/${P}.tar.gz"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"

@@ -1,0 +1,5 @@
+category: X11
+requires: python python-dbus python-eekboard python-gobject python-gtk2.0 python-ibus python-virtkey
+sdesc: "IBus Japanese SKK input method engine"
+ldesc: "ibus-skk is an implementation of the SKK (Simple Kana-Kanji) input
+method on the IBus input method framework."
