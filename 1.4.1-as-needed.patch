@@ -1,0 +1,25 @@
+--- origsrc/ibus-skk-1.4.1/src/Makefile.am	2012-03-27 23:40:52.000000000 -0500
++++ src/ibus-skk-1.4.1/src/Makefile.am	2012-11-09 02:35:56.043202100 -0600
+@@ -41,8 +41,8 @@ ibus_engine_skk_CFLAGS =			\
+ 	$(COMMON_CFLAGS)
+ 
+ ibus_engine_skk_LDADD =				\
+-	$(COMMON_LIBS)				\
+-	libutil.la
++	libutil.la				\
++	$(COMMON_LIBS)
+ 
+ ibus_engine_skk_SOURCES =			\
+ 	engine.vala
+@@ -59,9 +59,9 @@ ibus_setup_skk_CFLAGS =				\
+ 	$(GTK_CFLAGS)
+ 
+ ibus_setup_skk_LDADD =				\
++	libutil.la				\
+ 	$(COMMON_LIBS)				\
+-	$(GTK_LIBS)				\
+-	libutil.la
++	$(GTK_LIBS)
+ 
+ ibus_setup_skk_SOURCES =			\
+ 	setup.vala
