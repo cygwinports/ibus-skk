@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="ibus-skk"
 VERSION=1.4.1
-RELEASE=1
+RELEASE=2
 CATEGORY="X11"
 SUMMARY="IBus Japanese SKK input method engine"
 DESCRIPTION="ibus-skk is an implementation of the SKK (Simple Kana-Kanji) input
