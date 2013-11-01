@@ -8,7 +8,5 @@ SUMMARY="IBus Japanese SKK input method engine"
 DESCRIPTION="ibus-skk is an implementation of the SKK (Simple Kana-Kanji) input
 method on the IBus input method framework."
 HOMEPAGE="https://github.com/ueno/ibus-skk"
-SRC_URI="https://github.com/downloads/ueno/ibus-skk/${P}.tar.gz"
+SRC_URI="https://github.com/downloads/ueno/ibus-skk/${NAME}-${VERSION}.tar.gz"
 PATCH_URI="1.4.1-as-needed.patch"
-
-CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"
